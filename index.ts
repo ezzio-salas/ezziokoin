@@ -14,7 +14,7 @@ class Transaction {
 }
 
 class Block {
-    public nonce = Math.round(Math.random() * 999999999)
+    public nonce = Math.round(Math.random() * 789456123)
     constructor(
         public prevHas: string,
         public transaction: Transaction,
